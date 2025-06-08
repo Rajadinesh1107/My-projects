@@ -1,0 +1,26 @@
+🪨📄✂️ ROCK PAPER SCISSORS GAME – PYTHON CONSOLE VERSION
+
+A simple Rock, Paper, Scissors game built with Python. This is a console-based implementation where you play 5 rounds against the computer. The computer makes random choices, and the winner is displayed for each round.
+🎮 How to Play
+Run the script in a Python interpreter.
+You'll see the menu:
+1 Stone
+2 Paper
+3 Scissor
+
+Enter a number from 1 to 3 when prompted:
+1 for Stone 🪨
+2 for Paper 📄
+3 for Scissor ✂️
+
+The computer will randomly pick its move.
+The winner of each round will be displayed.
+
+📋 Example Output
+1 Stone
+2 Paper
+3 Scissor
+Round:  1
+User: 1
+Computer: 3
+Winner: User
