@@ -1,0 +1,27 @@
+                                      How to Run the Gradio Image Caption Generator 
+
+1. Install Required Packages 
+    Open your terminal or command prompt and run: 
+        pip install torch torchvision 
+        pip install transformers 
+        pip install gradio 
+        pip install pillow 
+
+2. Save Your Script 
+    Save your code into a Python file, for example: 
+        image_caption_app.py 
+    Make sure it includes the gr.Interface(...) and interface.launch() parts (which it already does). 
+
+3. Run the Script 
+    In your terminal, run: 
+      python image_caption_app.py 
+
+4. Open in Browser 
+    After running, Gradio will display a message like: 
+      Running on local URL: http://127.0.0.1:7860/ 
+    Open this link in your browser. 
+
+5. Use the Interface 
+    • Upload any image (JPG, PNG, etc.) 
+    • The model will process it and generate a caption. 
+    • The caption will appear below the image. 
