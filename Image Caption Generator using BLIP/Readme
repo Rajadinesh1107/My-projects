@@ -1,0 +1,48 @@
+🖼️ Image Caption Generator using BLIP
+
+This project is a simple web-based application that generates captions for images using the BLIP (Bootstrapped Language-Image Pretraining) model by Salesforce. The interface is built with Gradio for ease of use, and leverages Hugging Face Transformers for model integration.
+
+🚀 Demo
+
+Upload any image, and the model will generate a natural language caption describing it.
+
+📦 Features
+
+Automatically generates captions for any uploaded image
+
+Utilizes Salesforce’s BLIP image captioning model
+
+Built with Gradio for an interactive web interface
+
+GPU support enabled (if available)
+
+🛠️ Installation
+
+Install the required packages:
+
+pip install torch torchvision
+pip install transformers
+pip install gradio
+pip install pillow
+
+If you're using a GPU, ensure you install the correct version of torch with CUDA support.
+
+🧠 Model Used
+
+Salesforce/blip-image-captioning-base from Hugging Face
+This model is capable of generating captions from images without requiring prompts.
+
+🧪 How to Use
+
+Save the script (e.g., app.py)
+
+Run the script:
+python app.py
+
+A browser window will open where you can upload an image and receive a caption.
+
+✨ Example Output
+
+Input Image: A picture of a dog running on a beach
+Generated Caption: "a dog running on the beach during sunset"
+
